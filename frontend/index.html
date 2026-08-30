@@ -1,0 +1,42 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Investment Portfolio Management | Track & Analyze Your Assets</title>
+      <meta name="description" content="Manage your investment portfolio with ease. Track stocks, analyze performance, and stay ahead of the market with our premium dashboard." />
+      <meta name="keywords" content="investment, portfolio, stock tracker, finance, analytics, wealth management" />
+      
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://yourdomain.com/" />
+      <meta property="og:title" content="Investment Portfolio Management | Track & Analyze Your Assets" />
+      <meta property="og:description" content="Manage your investment portfolio with ease. Track stocks, analyze performance, and stay ahead of the market." />
+      <meta property="og:image" content="https://yourdomain.com/og-image.jpg" />
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://yourdomain.com/" />
+      <meta property="twitter:title" content="Investment Portfolio Management | Track & Analyze Your Assets" />
+      <meta property="twitter:description" content="Manage your investment portfolio with ease. Track stocks, analyze performance, and stay ahead of the market." />
+      <meta property="twitter:image" content="https://yourdomain.com/og-image.jpg" />
+
+      <script>
+        (function() {
+          const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        })();
+      </script>
+    </head>
+
+    <body>
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
+  
